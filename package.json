@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-uuidgenerator",
+  "version": "1.0.0",
+  "description": "Generate UUIDs using native functions.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happinov/cordova-plugin-uuidgenerator.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "UUID"
+  ],
+  "author": "Happinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/happinov/cordova-plugin-uuidgenerator/issues"
+  },
+  "homepage": "https://github.com/happinov/cordova-plugin-uuidgenerator#readme"
+}

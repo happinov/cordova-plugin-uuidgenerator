@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		xmlns:rim="http://www.blackberry.com/ns/widgets"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		id="cordova-plugin-uuidgenerator"
+		version="1.0.0">
+	<name>UUID Generator</name>
+	<description>Generate UUIDs using native functions.</description>
+	<license>MIT</license>
+	<keywords>cordova,plugin,UUID</keywords>
+
+	<author>Happinov</author>
+
+	<js-module src="www/UUIDGeneratorPlugin.js" name="UUIDGenerator">
+		<clobbers target="UUIDGenerator" />
+	</js-module>
+
+	<dependency id="cordova-plugin-add-swift-support" version="~1.6.2"/>
+
+	<!-- ios -->
+	<platform name="ios">
+		<!-- config file -->
+		<config-file target="config.xml" parent="/*">
+			<feature name="UUIDGeneratorPlugin">
+				<param name="ios-package" value="UUIDGeneratorPlugin" />
+			</feature>
+		</config-file>
+
+		<source-file src="src/ios/UUIDGeneratorPlugin.swift" />
+	</platform>
+
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="UUIDGeneratorPlugin" >
+				<param name="android-package" value="fr.happinov.cordova.plugin.uuidgenerator.UUIDGeneratorPlugin"/>
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/UUIDGeneratorPlugin.java" target-dir="src/fr/happinov/cordova/plugin/uuidgenerator" />
+	</platform>
+</plugin>
