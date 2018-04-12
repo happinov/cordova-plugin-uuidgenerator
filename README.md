@@ -25,5 +25,8 @@ This code is released under the [MIT license](LICENSE).
 
 ## Changelog
 
+## 1.0.1
+  * Added compatibility with Cordova 8.
+
 ## 1.0.0
   * Initial release supporting both iOS and Android.
