@@ -25,6 +25,9 @@ This code is released under the [MIT license](LICENSE).
 
 ## Changelog
 
+## 1.0.2
+  * Updated add-swift-support dependency version.
+
 ## 1.0.1
   * Added compatibility with Cordova 8.
 
