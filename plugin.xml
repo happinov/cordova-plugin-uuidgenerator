@@ -16,8 +16,6 @@
 		<clobbers target="UUIDGenerator" />
 	</js-module>
 
-	<dependency id="cordova-plugin-add-swift-support" version="^1.7.2"/>
-
 	<!-- ios -->
 	<platform name="ios">
 		<!-- config file -->
