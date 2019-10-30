@@ -4,7 +4,7 @@
 		xmlns:rim="http://www.blackberry.com/ns/widgets"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		id="cordova-plugin-uuidgenerator"
-		version="1.0.3">
+		version="1.1.0">
 	<name>UUID Generator</name>
 	<description>Generate UUIDs using native functions.</description>
 	<license>MIT</license>

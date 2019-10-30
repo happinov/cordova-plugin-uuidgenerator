@@ -25,6 +25,9 @@ This code is released under the [MIT license](LICENSE).
 
 ## Changelog
 
+## 1.1.0
+  * Removed add-swift-support dependency.
+
 ## 1.0.3
   * Fixed compatibility with swift 4.2.
 
